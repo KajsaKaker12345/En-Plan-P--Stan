@@ -58,7 +58,7 @@ fetch('activities.json')
             place.innerHTML = `<img src="bilder/place.png" alt="place"></img>` + ` ${activity.location}`;
 
             const moreInfo = document.createElement('p');
-            moreInfo.innerHTML = 'Visa mer ' + `<img src="bilder/Arrow.svg" alt="pil"></img>`;
+            moreInfo.innerHTML = 'Visa mer ' + `<img src="bilder/blueArrow.svg" alt="pil"></img>`;
             moreInfo.classList.add('moreInfo');
 
             const textDiv = document.createElement('div');
