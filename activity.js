@@ -52,7 +52,7 @@ fetch('activities.json')
             title.textContent = activity.title;
 
             const time = document.createElement('p');
-            time.innerHTML = `<img src="bilder/timme.png" alt="place"></img>` + ` ${activity.time}`;
+            time.innerHTML = `<img src="bilder/timme.png" alt="tid"></img>` + ` ${activity.time}`;
 
             const place = document.createElement('p');
             place.innerHTML = `<img src="bilder/place.png" alt="place"></img>` + ` ${activity.location}`;
