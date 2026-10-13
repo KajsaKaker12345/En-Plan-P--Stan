@@ -44,24 +44,29 @@ main a {
     gap: 80px;
     justify-content: space-between;
     align-items: center;
-    width: calc(100% - 240px);
+    width: calc(100% - 280px);
     min-height: 65vh;
     margin: 0 auto;
 }
 .textDiv {
-    width: 50%;
+    width: 45%;
 }
 .textDiv h2 {
     font-size: 2rem;
     margin-bottom: 35px;
 }
 .info {
+    position: relative;
     background-color: rgba(255, 255, 255, 0.15);
-    padding: 30px;
+    padding: 25px 30px;
+    padding-bottom: 70px;
     font-size: 1.2rem;
-    height: 250px;
+    box-sizing: border-box;
 }
-#activityInfo img {
+.info p {
+    font-size: 1rem;
+}
+#activityInfo > img {
     width: 45%;
     height: 450px;
     object-fit: cover;
@@ -81,4 +86,29 @@ main a {
 }
 #activityInfo img.nöje {
     border-color: #6fe4ec;
+}
+#activityInfo .qrCode {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin: 0;
+    border: none;
+}
+.qrDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: -90px -45px 0 0;
+}
+.qrDiv p {
+    margin: 0;
+    max-width: 260px;
+    text-align: right;
+    font-size: large;
+}
+#pil {
+    height: 12px;
+    width: 40px;
 }

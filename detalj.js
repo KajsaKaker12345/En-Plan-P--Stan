@@ -34,16 +34,28 @@ function displayInformation(activity) {
     info.classList.add('info');
 
     const description = document.createElement('p');
-    description.textContent = activity.description;
+    description.textContent = `Beskrivning: ${activity.description}`;
 
     const time = document.createElement('p');
-    time.textContent = `Tid: ${activity.time}`;
+    time.textContent = `Tid: ${activity.timespan}`;
 
     const place = document.createElement('p');
     place.textContent = `Plats: ${activity.location}`;
 
+    const qrCode = document.createElement('img');
+    qrCode.src = activity['qr-code'];
+    qrCode.alt = "Skanna för att hitta dit!";
+    qrCode.classList.add('qrCode');
+
+    const qrText = document.createElement('p');
+    qrText.innerHTML = "Skanna för att hitta dit " + ' <img src="bilder/vitRightArrow.svg" id="pil" alt="pil"<img>';
+
+    const qrDiv = document.createElement('div');
+    qrDiv.classList.add('qrDiv');
+    qrDiv.append(qrText, qrCode);
+
     info.append(time, description, place);
-    textDiv.append(title, info);
+    textDiv.append(title, info, qrDiv);
 
 
     activitySection.append(img, textDiv);
