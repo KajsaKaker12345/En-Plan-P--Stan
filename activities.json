@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "category": "Natur",
+        "title": "Stadsvandring genom Linnéparken",
+        "description": "Följ med på en härlig guidad stadsvandring genom Linnéparken, en grön oas mitt i Växjö. Under promenaden får du upptäcka parkens historia, lära dig mer om Carl von Linné och höra spännande berättelser om stadens utveckling. Njut av den vackra miljön samtidigt som guiden berättar om platser och händelser som har format Växjö genom åren. En trevlig aktivitet för både Växjöbor och besökare som vill lära känna staden bättre.",
+        "time": "14:00",
+        "timespan": "14:00 - 15:30",
+        "location": "Linnéparken, Växjö",
+        "image": "bilder/stadsvandring.png",
+        "qr-code": "qr_codes/stadsvandring.png"
+    },
+    {
+        "id": 2,
+        "category": "Kultur",
+        "title": "Konstutställning på Växjö Konsthall",
+        "description": "Välkommen till Växjö Konsthall för en inspirerande konstupplevelse! Här får du möjlighet att upptäcka spännande konstverk och ta del av olika konstnärliga uttryck, från måleri och skulptur till modern samtidskonst. Utställningen bjuder in till nya perspektiv, tankar och samtal. Oavsett om du är konstintresserad sedan tidigare eller bara nyfiken på något nytt är detta ett perfekt tillfälle att uppleva kultur i hjärtat av Växjö.",
+        "time": "16:00",
+        "timespan": "16:00 - 18:00",
+        "location": "Växjö Konsthall, Växjö",
+        "image": "bilder/konsthall.png",
+        "qr-code": "qr_codes/konstutstallning.png"
+    },
+    {
+        "id": 3,
+        "category": "Nöje",
+        "title": "Musikfestival i Stadsparken",
+        "description": "Upplev en kväll fylld av musik, glädje och gemenskap när Stadsparken förvandlas till en levande festivalplats! Under kvällen bjuder olika band och artister på livemusik med varierande musikstilar och härlig stämning. Samla vännerna, hitta en skön plats i parken och njut av musiken tillsammans med andra besökare. En perfekt aktivitet för dig som vill uppleva Växjös nöjesliv och skapa fina minnen under bar himmel.",
+        "time": "18:00",
+        "timespan": "18:00 - 22:00",
+        "location": "Stadsparken, Växjö",
+        "image": "bilder/musikfestival.png",
+        "qr-code": "qr_codes/musikfestival.png"
+    },
+    {
+        "id": 4,
+        "category": "Nöje",
+        "title": "Matmarknad på Stortorget",
+        "description": "Ta en smakrik promenad genom matmarknaden på Stortorget och upptäck ett härligt utbud av mat, dryck och lokala delikatesser. Här kan du strosa mellan marknadsstånden, inspireras av olika smaker och möta människor som brinner för mat och hantverk. Passa på att prova något nytt, hitta en favorit eller bara njuta av den livliga atmosfären mitt i Växjö. En mysig aktivitet som passar lika bra med familjen som med vännerna.",
+        "time": "12:00",
+        "timespan": "12:00 - 16:00",
+        "location": "Stortorget, Växjö",
+        "image": "bilder/matmarknad.png",
+        "qr-code": "qr_codes/matmarknad.png"
+    },
+    {
+        "id": 5,
+        "category": "Sport",
+        "title": "Östers IF fotbollsmatch",
+        "description": "Upplev spänningen från läktaren när Östers IF kliver ut på planen för en fotbollsmatch på hemmaplan! Känn gemenskapen bland supportrarna, heja fram laget och njut av en kväll fylld av energi och fotbollsglädje. Oavsett om du följer laget varje vecka eller besöker arenan för första gången väntar en härlig upplevelse. Ta med familjen eller vännerna och var med när publiken stöttar Öster på Spiris Arena.",
+        "time": "19:00",
+        "timespan": "19:00 - 21:00",
+        "location": "Spiris Arena, Växjö",
+        "image": "bilder/fotboll.png",
+        "qr-code": "qr_codes/fotbollsmatch.png"
+    },
+    {
+        "id": 6,
+        "category": "Sport",
+        "title": "Yoga i Linnéparken",
+        "description": "Starta dagen på ett lugnt och härligt sätt med en gratis yogaklass i vackra Linnéparken. Under passet får du möjlighet att varva ner, sträcka ut kroppen och fokusera på din andning i en rogivande utomhusmiljö. Klassen passar både nybörjare och dig som har provat yoga tidigare, och övningarna kan anpassas efter din egen nivå. Ta med en yogamatta eller handduk, bekväma kläder och njut av en stund för både kropp och sinne.",
+        "time": "10:00",
+        "timespan": "10:00 - 11:00",
+        "location": "Linnéparken, Växjö",
+        "image": "bilder/yoga.png",
+        "qr-code": "qr_codes/yoga.png"
+    },
+    {
+        "id": 7,
+        "category": "Kultur",
+        "title": "Guidad tur på Växjö Domkyrka",
+        "description": "Följ med på en gratis guidad tur i Växjö domkyrka och upptäck en av stadens mest välkända historiska byggnader. Under besöket får du höra berättelser om domkyrkans långa historia, dess arkitektur och betydelse för Växjö genom århundradena. Titta närmare på kyrkans vackra detaljer och lär dig mer om hur byggnaden har förändrats över tid. En intressant och lärorik upplevelse för alla som tycker om historia, kultur och arkitektur.",
+        "time": "15:00",
+        "timespan": "15:00 - 16:00",
+        "location": "Växjö Domkyrka, Växjö",
+        "image": "bilder/domkyrkan.png",
+        "qr-code": "qr_codes/domkyrka.png"
+    },
+    {
+        "id": 8,
+        "category": "Natur",
+        "title": "Bokhultet naturreservat - guidad tur",
+        "description": "Följ med på en guidad naturvandring genom Bokhultets vackra naturreservat och upptäck ett av Växjös fina naturområden. Tillsammans med en guide utforskar du skogsstigar och natursköna omgivningar samtidigt som du får lära dig mer om områdets växter, djur och ekosystem. Under promenaden finns möjlighet att stanna upp, lyssna på naturens ljud och njuta av den friska luften. En avkopplande och lärorik aktivitet för dig som vill komma närmare naturen.",
+        "time": "13:00",
+        "timespan": "13:00 - 15:00",
+        "location": "Bokhultet, Växjö",
+        "image": "bilder/bokhultet.png",
+        "qr-code": "qr_codes/bokhultet.png"
+    }
+
+]

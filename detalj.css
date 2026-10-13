@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+body {
+    min-height: 100vh;
+
+    background: linear-gradient(150deg, #3791ff, #b579ff);
+    color: white;
+}
+.stad {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+/* En Plan På Stan */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 60px;
+    font-size: larger;
+}
+#header span {
+    font-weight: bold;
+    color: #ffcc67;
+}
+#header a {
+    color: white;
+}
+main a {
+    color: #ffcc67;
+    font-size: 1.4rem;
+    margin-left: 120px;
+    font-weight: bold;
+}
+#activityInfo {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 240px);
+    min-height: 65vh;
+    margin: 0 auto;
+}
+.textDiv {
+    width: 50%;
+}
+.textDiv h2 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.info {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    font-size: 1.2rem;
+    height: 250px;
+}
+#activityInfo img {
+    width: 45%;
+    height: 450px;
+    object-fit: cover;
+
+    border: 7px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#activityInfo img.kultur {
+    border-color: #ffa0be;
+}
+#activityInfo img.natur {
+    border-color: #86f181;
+}
+#activityInfo img.sport {
+    border-color: #ffcd68;
+}
+#activityInfo img.nöje {
+    border-color: #6fe4ec;
+}
