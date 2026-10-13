@@ -30,7 +30,7 @@
         "timespan": "18:00 - 22:00",
         "location": "Stadsparken, Växjö",
         "image": "bilder/musikfestival.png",
-        "qr-code": "qr_codes/musikfestival.png"
+        "qr-code": "qr_codes/stadsvandring.png"
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "timespan": "12:00 - 16:00",
         "location": "Stortorget, Växjö",
         "image": "bilder/matmarknad.png",
-        "qr-code": "qr_codes/matmarknad.png"
+        "qr-code": "qr_codes/stortorget.png"
     },
     {
         "id": 5,
@@ -63,7 +63,7 @@
         "timespan": "10:00 - 11:00",
         "location": "Linnéparken, Växjö",
         "image": "bilder/yoga.png",
-        "qr-code": "qr_codes/yoga.png"
+        "qr-code": "qr_codes/stadsvandring.png"
     },
     {
         "id": 7,
