@@ -126,6 +126,9 @@ header nav ul {
 #activities.few-activities .activity .img {
     height: 250px;
 }
+#activities.few-activities .moreInfo {
+    font-size: 1.2rem;
+}
 
 /* text fältet */
 .textDiv {

@@ -44,7 +44,7 @@ function displayInformation(activity) {
 
     const qrCode = document.createElement('img');
     qrCode.src = activity['qr-code'];
-    qrCode.alt = "Skanna för att hitta dit!";
+    qrCode.alt = "Skanna för vägbeskrivning!";
     qrCode.classList.add('qrCode');
 
     const qrText = document.createElement('p');
