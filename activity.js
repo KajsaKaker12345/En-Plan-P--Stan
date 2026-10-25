@@ -43,10 +43,19 @@ fetch('activities.json')
                 window.location.href = `detalj.html?id=${activity.id}`;
             });
 
+            const categoryIcon = document.createElement('img');
+            categoryIcon.classList.add('categoryIcon');
+            categoryIcon.src = `bilder/${activity.category.toLowerCase()}.svg`;
+            categoryIcon.alt = activity.category;
+
             const img = document.createElement('img');
             img.src = activity.image;
             img.alt = activity.title;
             img.classList.add('img');
+
+            const imgDiv = document.createElement('div');
+            imgDiv.classList.add('imgDiv');
+            imgDiv.append(img, categoryIcon);
 
             const title = document.createElement('h2');
             title.textContent = activity.title;
@@ -58,20 +67,20 @@ fetch('activities.json')
             place.innerHTML = `<img src="bilder/place.png" alt="place"></img>` + ` ${activity.location}`;
 
             const moreInfo = document.createElement('p');
-            moreInfo.innerHTML = 'Visa mer ' + `<img src="bilder/blueArrow.svg" alt="pil"></img>`;
+            moreInfo.innerHTML = 'Läs mer ' + `<img src="bilder/blueArrow.svg" alt="pil"></img>`;
             moreInfo.classList.add('moreInfo');
 
             const textDiv = document.createElement('div');
             textDiv.classList.add('textDiv');
-            textDiv.appendChild(title);
-            textDiv.appendChild(time);
-            textDiv.appendChild(place);
-            textDiv.appendChild(moreInfo);
+            textDiv.append(title);
+            textDiv.append(time);
+            textDiv.append(place);
+            textDiv.append(moreInfo);
 
-            activityDiv.appendChild(img);
-            activityDiv.appendChild(textDiv);;
+            
+            activityDiv.append(imgDiv, textDiv);
 
-            activitySection.appendChild(activityDiv);
+            activitySection.append(activityDiv);
     }
 
 /* event listeners för de olika kategorierna */
