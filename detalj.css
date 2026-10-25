@@ -5,10 +5,9 @@ html, body {
     min-height: 100%;
 }
 body {
-    min-height: 100vh;
-
-    background: linear-gradient(150deg, #3791ff, #b579ff);
-    color: white;
+    height: 100%;
+    background: linear-gradient(180deg, #70b8ff, #80aeff, #a19aff);
+    font-family: 'Montserrat', sans-serif;
 }
 .stad {
     position: absolute;
@@ -23,25 +22,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 60px;
-    font-size: larger;
+    margin: 20px 70px;
+    font-size: 1.6rem;
+    color: #003576;
 }
 #header span {
     font-weight: bold;
-    color: #ffcc67;
+    color: #ffffff;
 }
 #header a {
-    color: white;
+    color: #003576;
 }
 main a {
-    color: white;
+    color: #ffffff;
     font-size: 1.4rem;
     margin-left: 145px;
+    display: flex;
     font-weight: bold;
+}
+main a img {
+    height: 30px;
+    width: 30px;
+}
+main {
+    color: white;
 }
 #activityInfo {
     display: flex;
-    gap: 80px;
     justify-content: space-between;
     align-items: center;
     width: calc(100% - 280px);
@@ -49,11 +56,26 @@ main a {
     margin: 0 auto;
 }
 .textDiv {
-    width: 45%;
+    width: 50%;
 }
-.textDiv h2 {
-    font-size: 2rem;
+.titleDiv h2 {
+    font-size: 1.7rem;
     margin-bottom: 35px;
+}
+.titleDiv {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.titleDiv .icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 25%;
 }
 .info {
     position: relative;
@@ -71,9 +93,7 @@ main a {
     height: 450px;
     object-fit: cover;
 
-    border: 7px solid;
     box-sizing: border-box;
-    border-radius: 10px;
 }
 #activityInfo img.kultur {
     border-color: #ffa0be;
@@ -104,11 +124,24 @@ main a {
 }
 .qrDiv p {
     margin: 0;
-    max-width: 260px;
+    max-width: 300px;
     text-align: right;
     font-size: large;
 }
 #pil {
     height: 12px;
     width: 40px;
+}
+@keyframes movingBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
 }

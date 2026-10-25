@@ -3,11 +3,12 @@ html, body {
     padding: 0;
     width: 100%;
     min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 body {
     min-height: 100vh;
 
-    background: linear-gradient(170deg, #3791ff, #b579ff, #ff954f);
+    background: linear-gradient(170deg, #70b8ff, #cea6ff, #ffb889);
     color: white;
 }
 .stad {
@@ -20,8 +21,8 @@ body {
 }
 .information {
     position: absolute;
-    top: 4%;
-    left: 25%;
+    top: 5%;
+    left: 30%;
     transform: translateX(-50%);
     z-index: 2;
 
@@ -29,14 +30,15 @@ body {
 .information h1 {
     font-size: 6rem;
     margin-bottom: 1rem;
+    color: #003576;
 }
 .information h1 span {
     font-weight: bold;
-    color: #ffcc67;
+    color: #ffffff;
 }
 .information p strong {
     font-weight: bold;
-    color: rgb(255, 204, 103);
+    color: #003576;
 }
 .information p {
     font-size: 1.7rem;
@@ -50,11 +52,11 @@ body {
     gap: 10px;
 
     width: fit-content;
-    padding: 1rem 2rem;
+    padding: 1.1rem 2.1rem;
 
     background-color: rgb(242, 245, 255);
     color: rgb(142, 86, 255);
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;
 
