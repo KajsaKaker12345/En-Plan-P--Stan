@@ -48,10 +48,10 @@ function displayInformation(activity) {
     description.innerHTML = `<strong>Beskrivning:</strong> ${activity.description}`;
 
     const time = document.createElement('p');
-    time.innerHTML = `<strong>Tid:</strong> ${activity.timespan}`;
+    time.innerHTML = `<img src="bilder/timmeWhite.svg" alt="tid"></img>` + ` ${activity.timespan}`;
 
     const place = document.createElement('p');
-    place.innerHTML = `<strong>Plats:</strong> ${activity.location}`;
+    place.innerHTML = `<img src="bilder/placeWhite.svg" alt="place"></img>` + ` ${activity.location}`;
 
     // QR koden med text
     const qrCode = document.createElement('img');
@@ -73,5 +73,16 @@ function displayInformation(activity) {
 
 
     activitySection.append(img, textDiv);
+
+    // kontakt info
+    const contactSection = document.getElementById('contact');
+    contactSection.classList.add('contact');
+
+    const contact = document.createElement('p');
+    contact.innerHTML = `${activity.contact.name}`;
+    const number = document.createElement('p');
+    number.innerHTML = `${activity.contact.number}`;
+
+    contactSection.append(contact, number);
 
 }

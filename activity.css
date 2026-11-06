@@ -28,16 +28,31 @@ body {
     margin: 20px 70px 0 70px;
     font-size: 1.6rem;
 }
-#header span {
+#header h1 span {
     font-weight: bold;
     color: #ffffff;
 }
 #header a {
     color: #003576;
 }
-#gratis {
-    
+/* Datum och tid */
+.time {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
 }
+#date {
+    font-weight: 500;
+}
+.space {
+    opacity: 0.6;
+}
+#clock {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 /* navigation */
 header nav ul {
     display: flex;
@@ -113,8 +128,8 @@ header nav ul {
 .activity {
     width: 100%;
     background-color: rgba(255, 255, 255);
-    color: rgb(20, 20, 28);
-    border: 3px solid transparent;
+    color: #003576;
+    border-bottom: 8px solid transparent;
     box-sizing: border-box;
 
     display: flex;
@@ -187,4 +202,23 @@ header nav ul {
     font-weight: bold;
     color: #2d4ea8;
     text-decoration: underline;
+}
+
+@media (max-height: 950px) {
+    .activity {
+        height: 280px;
+    }
+    .activity .img {
+        height: 110px;
+    }
+    #activities {
+        gap: 20px;
+        margin-top: 30px;
+    }
+    #activities.few-activities .activity .img {
+        height: 200px;
+    }
+    #activities.few-activities .activity {
+        height: 350px;
+    }
 }

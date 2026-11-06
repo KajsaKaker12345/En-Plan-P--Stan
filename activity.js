@@ -19,7 +19,7 @@ fetch('activities.json')
         activitySection.innerHTML = '';
 
         const filteredActivities = activitiesData.filter(activity => {
-            return selectedCategory === 'ALLA AKTIVITETER' || activity.category.toLowerCase() === selectedCategory.toLowerCase();
+            return selectedCategory === 'Alla' || selectedCategory === 'ALLA AKTIVITETER' || activity.category.toLowerCase() === selectedCategory.toLowerCase();
         });
 
         if (filteredActivities.length <= 2) {
@@ -61,10 +61,10 @@ fetch('activities.json')
             title.textContent = activity.title;
 
             const time = document.createElement('p');
-            time.innerHTML = `<img src="bilder/timme.png" alt="tid"></img>` + ` ${activity.time}`;
+            time.innerHTML = `<img src="bilder/timmeBlue.svg" alt="tid"></img>` + ` ${activity.time}`;
 
             const place = document.createElement('p');
-            place.innerHTML = `<img src="bilder/place.png" alt="place"></img>` + ` ${activity.location}`;
+            place.innerHTML = `<img src="bilder/placeBlue.svg" alt="place"></img>` + ` ${activity.location}`;
 
             const moreInfo = document.createElement('p');
             moreInfo.innerHTML = 'Läs mer ' + `<img src="bilder/blueArrow.svg" alt="pil"></img>`;
@@ -94,7 +94,7 @@ categories.forEach(category => {
         });
 
         category.classList.add("active");
-        const selectedCategory = category.textContent.trim();
+        const selectedCategory = category.dataset.category;
         filterActivities(selectedCategory);
 
     });

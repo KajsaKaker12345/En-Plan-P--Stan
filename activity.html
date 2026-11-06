@@ -7,20 +7,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="activity.css">
     <script src="activity.js" type="module"></script>
+    <script src="date.js" type="module"></script>
 </head>
 <body>
     <header>
     <section id="header">
+        <div>
         <h1><a href="index.html">En Plan <span>På Stan</span></a></h1>
-        <p>Växjö, Fredag 16 oktober</p>
+        </div>
+
+        <div class="time">
+        <span id="date"></span>
+        <span class="space"> | </span>
+        <span id="clock"></span>
+        </div>
     </section>
     <nav>
         <ul>
-            <li class="category active">ALLA AKTIVITETER</li>
-            <li class="category"><img src="bilder/kultur.svg" alt="kultur"> KULTUR</li>
-            <li class="category"><img src="bilder/natur.svg" alt="kultur"> NATUR</li>
-            <li class="category"><img src="bilder/sport.svg" alt="kultur"> SPORT</li>
-            <li class="category"><img src="bilder/nöje.svg" alt="kultur"> NÖJE</li>
+            <li class="category active" data-category="Alla">ALLA AKTIVITETER</li>
+            <li class="category" data-category="Kultur"><img src="bilder/kultur.svg" alt="kultur">KULTUR & HISTORIA</li>
+            <li class="category" data-category="Natur"><img src="bilder/natur.svg" alt="kultur">NATUR & FRILUFSLIV</li>
+            <li class="category" data-category="Sport"><img src="bilder/sport.svg" alt="kultur">SPORT & RÖRELSE</li>
+            <li class="category" data-category="Nöje"><img src="bilder/nöje.svg" alt="kultur">MUSIK & EVENEMANG</li>
         </ul>
     </nav>
     </header>

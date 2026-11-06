@@ -26,13 +26,32 @@ body {
     font-size: 1.6rem;
     color: #003576;
 }
-#header span {
+#header h1 span {
     font-weight: bold;
     color: #ffffff;
 }
 #header a {
     color: #003576;
 }
+/* Datum och tid */
+.time {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+#date {
+    font-weight: 500;
+}
+.space {
+    opacity: 0.6;
+}
+#clock {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* tillbaka knapp element */
 main a {
     color: #ffffff;
     font-size: 1.4rem;
@@ -52,7 +71,7 @@ main {
     justify-content: space-between;
     align-items: center;
     width: calc(100% - 280px);
-    min-height: 65vh;
+    min-height: 60vh;
     margin: 0 auto;
 }
 .textDiv {
@@ -87,6 +106,11 @@ main {
 }
 .info p {
     font-size: 1rem;
+}
+.info img {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
 }
 #activityInfo > img {
     width: 45%;
@@ -132,6 +156,53 @@ main {
     height: 12px;
     width: 40px;
 }
+.contact {
+    margin-left: 140px;
+    margin-top: -55px;
+    padding: 5px 25px;
+    width: 34%;
+
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.contact h3 {
+    margin-left: 90px;
+    font-size: 1rem;
+}
+.contact p {
+    margin-left: 90px;
+    font-size: 0.8rem;
+}
+.contact img {
+    height: 40px;
+    position: absolute;
+    margin-top: 25px;
+    background-color: #3bc460b5;
+    padding: 8px;
+    border-radius: 50%;
+}
+@media (max-height: 865px) {
+    #activityInfo {
+        min-height: 60vh;
+    }
+    .contact {
+    margin-left: 140px;
+    margin-top: -25px;
+    padding: 5px 20px;
+    width: 34%;
+
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    font-size: 1rem;
+    }
+    .contact img {
+    height: 35px;
+    margin-top: 35px;
+    padding: 4px;
+    }
+}
+
 @keyframes movingBackground {
     0% {
         background-position: 0% 0%;

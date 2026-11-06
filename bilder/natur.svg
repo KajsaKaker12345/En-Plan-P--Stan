@@ -1,16 +1,21 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier">
-<defs>
-<style>.cls-1{fill:none;stroke:#86f181;stroke-miterlimit:10;stroke-width:1.91px;}</style>
-</defs>
-<path class="cls-1" d="M19.65,8.67h0a1.43,1.43,0,0,0-1.43-1.43h0A1.43,1.43,0,0,1,16.78,5.8h0a4.3,4.3,0,0,0-4.3-4.3h-1a4.3,4.3,0,0,0-4.3,4.3h0A1.43,1.43,0,0,1,5.78,7.24h0A1.43,1.43,0,0,0,4.35,8.67h0a2,2,0,0,0,1.36,1.89l.37.13a1.66,1.66,0,0,1,1.14,1.58h0a1.66,1.66,0,0,1-1.67,1.66h0a1.47,1.47,0,0,0-1.36,2h0A4.42,4.42,0,0,0,8.3,18.72h7.4a4.42,4.42,0,0,0,4.11-2.78h0a1.47,1.47,0,0,0-1.36-2h0a1.66,1.66,0,0,1-1.67-1.66h0a1.66,1.66,0,0,1,1.14-1.58l.37-.13A2,2,0,0,0,19.65,8.67Z"/>
-<line class="cls-1" x1="12" y1="6.28" x2="12" y2="23.5"/>
-<line class="cls-1" x1="9.13" y1="8.2" x2="12" y2="10.11"/>
-<line class="cls-1" x1="9.13" y1="13.93" x2="12" y2="15.85"/>
-<line class="cls-1" x1="12" y1="12.98" x2="14.87" y2="10.11"/>
-</g>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 800 800">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #86f181;
+        stroke-miterlimit: 333.33;
+        stroke-width: 80px;
+      }
+    </style>
+  </defs>
+  <g id="SVGRepo_iconCarrier">
+    <path class="st0" d="M655,289h0c0-26.33-21.34-47.67-47.67-47.67h0c-26.32.18-47.82-21.01-48-47.33,0-.22,0-.45,0-.67h0c0-79.16-64.17-143.33-143.33-143.33h-33.33c-79.16,0-143.33,64.17-143.33,143.33h0c.19,26.07-20.6,47.45-46.67,48h0c-26.33,0-47.67,21.34-47.67,47.67h0c.07,28.54,18.3,53.87,45.33,63l12.33,4.33c22.72,7.49,38.05,28.74,38,52.67h0c0,30.56-24.77,55.33-55.33,55.33-.11,0-.22,0-.33,0h0c-27.06.2-48.83,22.31-48.63,49.37.04,5.92,1.16,11.78,3.29,17.3h0c22.28,56.16,76.58,93.02,137,93h246.67c60.33.08,114.61-36.64,137-92.67h0c9.76-25.24-2.79-53.61-28.04-63.37-5.52-2.13-11.38-3.25-17.3-3.29h0c-30.56.18-55.48-24.44-55.67-55,0-.11,0-.22,0-.33h0c-.05-23.92,15.28-45.17,38-52.67l12.33-4.33c27.15-9.17,45.41-34.67,45.33-63.33Z"/>
+    <line class="st0" x1="400" y1="209.33" x2="400" y2="783.33"/>
+    <line class="st0" x1="304.33" y1="273.33" x2="400" y2="337"/>
+    <line class="st0" x1="304.33" y1="464.33" x2="400" y2="528.33"/>
+    <line class="st0" x1="400" y1="432.67" x2="495.67" y2="337"/>
+  </g>
+</svg>

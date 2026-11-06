@@ -8,7 +8,11 @@
         "timespan": "10:00 - 11:00",
         "location": "Linnéparken, Växjö",
         "image": "bilder/yoga.png",
-        "qr-code": "qr_codes/stadsvandring.png"
+        "qr-code": "qr_codes/stadsvandring.png",
+        "contact": {
+            "name": "Yogalärare, Anna Karlsson",
+            "number": "012 345 67 88"
+        } 
     },
     {
         "id": 4,
@@ -19,7 +23,11 @@
         "timespan": "12:00 - 16:00",
         "location": "Stortorget, Växjö",
         "image": "bilder/matmarknad.png",
-        "qr-code": "qr_codes/stortorget.png"
+        "qr-code": "qr_codes/stortorget.png",
+        "contact": {
+            "name": "Ansvarig, Petter Karlsson",
+            "number": "012 345 67 88"
+        } 
     },
     {
         "id": 8,
@@ -30,7 +38,11 @@
         "timespan": "13:00 - 15:00",
         "location": "Bokhultet, Växjö",
         "image": "bilder/bokhultet.png",
-        "qr-code": "qr_codes/bokhultet.png"
+        "qr-code": "qr_codes/bokhultet.png",
+        "contact": {
+            "name": "Guide, Maria Karlsson",
+            "number": "012 345 67 88"
+        } 
     },
     {
         "id": 1,
@@ -41,7 +53,11 @@
         "timespan": "14:00 - 15:30",
         "location": "Linnéparken, Växjö",
         "image": "bilder/stadsvandring.png",
-        "qr-code": "qr_codes/stadsvandring.png"
+        "qr-code": "qr_codes/stadsvandring.png",
+        "contact": {
+            "name": "Guide, Hans Karlsson",
+            "number": "012 345 67 88"
+        } 
     },
     {
         "id": 7,
@@ -52,7 +68,11 @@
         "timespan": "15:00 - 16:00",
         "location": "Växjö Domkyrka, Växjö",
         "image": "bilder/domkyrkan.png",
-        "qr-code": "qr_codes/domkyrka.png"
+        "qr-code": "qr_codes/domkyrka.png",
+        "contact": {
+            "name": "Guide, Maria Strömberg",
+            "number": "012 345 67 88"
+        } 
     },
     {
         "id": 2,
@@ -63,7 +83,11 @@
         "timespan": "16:00 - 18:00",
         "location": "Växjö Konsthall, Växjö",
         "image": "bilder/konsthall.png",
-        "qr-code": "qr_codes/konstutstallning.png"
+        "qr-code": "qr_codes/konstutstallning.png",
+        "contact": {
+            "name": "Reception, Växjö Konsthall",
+            "number": "012 345 67 88"
+        } 
     },
     {
         "id": 3,
@@ -74,7 +98,11 @@
         "timespan": "18:00 - 22:00",
         "location": "Stadsparken, Växjö",
         "image": "bilder/musikfestival.png",
-        "qr-code": "qr_codes/stadsvandring.png"
+        "qr-code": "qr_codes/stadsvandring.png",
+        "contact": {
+            "name": "Ansvarig, Klara Svensson",
+            "number": "012 345 67 88"
+        } 
     },
     {
         "id": 5,
@@ -85,6 +113,10 @@
         "timespan": "19:00 - 21:00",
         "location": "Spiris Arena, Växjö",
         "image": "bilder/fotboll.png",
-        "qr-code": "qr_codes/fotbollsmatch.png"
+        "qr-code": "qr_codes/fotbollsmatch.png",
+        "contact": {
+            "name": "Sprirs Arena",
+            "number": "012 345 67 88"
+        } 
     }
 ]

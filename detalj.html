@@ -6,19 +6,31 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="detalj.js" type="module"></script>
+    <script src="date.js" type="module"></script>
     <link rel="stylesheet" href="detalj.css">
 </head>
 <body>
     <header>
         <section id="header">
+        <div>
         <h1><a href="index.html">En Plan <span>På Stan</span></a></h1>
-        <p>Växjö, Fredag 16 oktober</p>
+        </div>
+
+        <div class="time">
+        <span id="date"></span>
+        <span class="space"> | </span>
+        <span id="clock"></span>
+        </div>
     </section>
     </header>
     <main>
         <a href="activity.html"><img src="bilder/vitLeftArrow.svg" alt="pil"> Tillbaka till aktiviteterna</a>
 
         <section id="activityInfo">
+        </section>
+        <section id="contact">
+            <img src="bilder/phone.svg" alt="telefon">
+            <h3>Kontakt till arrangör</h3>
         </section>
          <img src="bilder/miniStad1.svg" class="stad "alt="stad">
     </main>
